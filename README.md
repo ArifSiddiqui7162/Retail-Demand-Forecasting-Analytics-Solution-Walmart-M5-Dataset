@@ -18,3 +18,23 @@ Walmart needs to improve **inventory management, demand forecasting, and promoti
 - Increase forecast accuracy to improve inventory planning.  
 - Identify high-impact promotions and optimize pricing strategies.  
 - Provide actionable, data-driven insights for strategic retail decision-making.
+
+## 🎯 Business Objectives
+
+The primary objectives of this project are:
+
+1. **Inventory Optimization**  
+   - Reduce stockouts by accurately forecasting demand at the SKU-store level.  
+   - Minimize overstock to lower holding costs and improve cash flow.  
+
+2. **Demand Forecasting**  
+   - Develop predictive models to forecast daily sales for thousands of SKUs across multiple stores.  
+   - Account for seasonality, trends, holidays, and promotions to improve forecast accuracy.  
+
+3. **Promotion ROI Analysis**  
+   - Measure the effectiveness of promotional campaigns in driving sales.  
+   - Calculate ROI for different promotion types to guide marketing spend.  
+
+4. **Data-Driven Decision Support**  
+   - Provide actionable insights to executives, inventory managers, and marketing teams through interactive dashboards.  
+   - Enable scenario planning for pricing and promotion strategies.
