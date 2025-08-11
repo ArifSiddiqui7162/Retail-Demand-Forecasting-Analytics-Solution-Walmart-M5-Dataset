@@ -38,3 +38,21 @@ The primary objectives of this project are:
 4. **Data-Driven Decision Support**  
    - Provide actionable insights to executives, inventory managers, and marketing teams through interactive dashboards.  
    - Enable scenario planning for pricing and promotion strategies.
+
+## 📊 Dataset Variable to Business Context Mapping
+
+This project uses the Walmart M5 Forecasting Competition dataset.  
+The table below maps each key variable to its technical meaning, business relevance, and example use case.
+
+| Dataset | Column Name | Technical Meaning | Business Context | Example Use Case |
+|---------|------------|-------------------|------------------|------------------|
+| calendar | `event_name_1` | Name of the first event/holiday on that day | Special days that can impact demand | Plan promotions or stock increases before holidays |
+| calendar | `event_type_1` | Type of event (National holiday, Sporting event, etc.) | Helps categorize sales spikes | Analyze impact of different event types |
+| sell_prices | `sell_price` | Price of an item in a store for a given week | Determines demand sensitivity (price elasticity) | Check if lowering prices increases sales |
+| sell_prices | `wm_yr_wk` | Walmart’s year-week code | Aligns prices with sales weeks | Merge weekly price data with sales data |
+| sales_train_validation | `d_1`–`d_1913` | Sequential day numbers for sales | Each corresponds to a real date | Match with holidays, promotions, or seasons |
+| sales_train_validation | `item_id` | Unique product code | Identifies specific products | Track sales performance by product |
+| sales_train_validation | `store_id` | Store location code | Links sales to physical locations | Compare performance between stores |
+| calendar | `snap_CA`, `snap_TX`, `snap_WI` | SNAP (Supplemental Nutrition Assistance Program) activity in each state | Indicates when customers have more purchasing power | Target promotions during SNAP days |
+
+> **Note:** Dates for `d_1`, `d_2`, ... are mapped via the `calendar` table.
