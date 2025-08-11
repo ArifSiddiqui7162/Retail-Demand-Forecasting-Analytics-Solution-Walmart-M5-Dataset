@@ -56,3 +56,52 @@ The table below maps each key variable to its technical meaning, business releva
 | calendar | `snap_CA`, `snap_TX`, `snap_WI` | SNAP (Supplemental Nutrition Assistance Program) activity in each state | Indicates when customers have more purchasing power | Target promotions during SNAP days |
 
 > **Note:** Dates for `d_1`, `d_2`, ... are mapped via the `calendar` table.
+
+## 🛠 Tools & Tech Stack
+
+This project uses a combination of database, analytics, visualization, and machine learning tools:
+
+- **SQL Server** – Data warehousing, star/snowflake schema design, ETL, and advanced SQL queries
+- **Python** – Data cleaning, transformation, feature engineering, and modeling
+  - **Pandas** – Data manipulation and EDA
+  - **NumPy** – Numerical operations
+  - **Scikit-learn** – Machine learning (classification, regression, clustering)
+  - **Prophet** – Time series forecasting
+  - **Matplotlib & Seaborn** – Data visualization
+- **Power BI** – Interactive dashboard creation and KPI tracking
+- **Jupyter Notebook** – Code experimentation and documentation
+- **Git & GitHub** – Version control and project documentation
+
+## 📅 Project Roadmap
+
+The project will be executed in the following phases:
+
+1. **Planning & Data Understanding**  
+   - Define objectives, KPIs, and map dataset variables to business context.  
+
+2. **Data Modeling & Warehouse Design**  
+   - Create star/snowflake schema in SQL Server.  
+   - Design ETL workflows.  
+
+3. **ETL & Data Cleaning**  
+   - Load datasets into SQL Server.  
+   - Handle missing values, outliers, and data transformations.  
+
+4. **Exploratory Data Analysis (EDA)**  
+   - Perform statistical analysis, visualizations, and hypothesis testing.  
+
+5. **Business Analytics & KPIs**  
+   - Calculate stockout rate, promotion lift, inventory turnover, and other metrics.  
+
+6. **Power BI Dashboard Development**  
+   - Build interactive dashboards with drill-downs, filters, and KPIs.  
+
+7. **Machine Learning Modeling**  
+   - Forecast demand using time series models.  
+   - Apply regression, classification, and clustering as needed.  
+
+8. **Insights & Recommendations**  
+   - Summarize business findings and link to objectives.  
+
+9. **Documentation & Delivery**  
+   - Prepare final README, code comments, and dashboard exports.
